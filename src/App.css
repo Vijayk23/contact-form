@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.contact-form{
+ 
+  margin-top: 15vh;
+}
+.contact-title h1{
+  text-align: center;
+    color: #23235f;
+}
+.form-container{
+  width: 600px;
+  height: auto;
+  background-color: #f0f0fe;
+  margin: 5vh auto;
+  border-radius: 10px;
+ 
+}
+.form-container form{
+display: flex;
+padding: 20px 20px; 
+flex-wrap: wrap;
+}
+form input{
+  height: 25px;
+  padding: 10px;
+ width:  245px;
+ margin: 10px 5px 15px ;
+ border: 1px solid #b9b9b9;
+
+}
+form input:nth-child(3){
+  width: 520px;
+}
+form textarea{
+  width: 520px;
+  margin: 10px 5px 15px ;  
+ border: 1px solid #b9b9b9;
+ padding: 10px;
+ height: 110px;
+}
+form button{
+  margin: 10px 5px 15px ;  
+  padding: 8px;
+  color: white;
+  background-color: #4f4fb8;
+  width: 200px;
+ border: none;
+ font-size: 15px;
+ border-radius: 8px;
+}
+
+.chat-area{
+  overflow-y: scroll;
+  height: 340px;
+}
+
+
+.chat-bot{
+  width: 350px;
+  height: 450px;
+  box-shadow: 1px 1px 6px gray;
+  border-radius: 15px;
+  margin: -28rem 50px 0 auto;
+
+}
+.chat-title{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 15px 15px 0 0;
+  background-color: #4f4fb8;
+  color: white;
+}
+.botimg{
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+
+}
+.chat-bot-msg{
+  display: flex;
+  gap: 20px;
+  padding: 5px;
+  margin-top: 15px;
+}
+.chat-bot-msg p{
+  padding: 15px;
+  border-radius: 15px 15px 15px 0;
+  box-shadow: 1px 1px 6px gray;
+  margin: 0 10px 10px 0;
+  
+}
+.chat-user-msg{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 5px;
+}
+.userimg{
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+
+}
+.chat-user-msg p{
+  padding: 15px;
+  border-radius: 15px 15px 0px 15px;
+  box-shadow: 1px 1px 6px gray;
+  margin: 5px;
+}
+.input-chat{
+  width: 290px;
+  border: none;
+  height: 30px;
+  border-radius: 0 0 15px 15px;
+  padding: 10px;
+}
+.input-chat:focus{
+outline: none;
+}
+.input-send{
+  display: flex;
+  align-items: center;
+border-top: 1px solid #e2e2e2;
+
+}
+.send{
+  color: #4f4fb8;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.chat-title p{
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.message{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  cursor: pointer;
+}
